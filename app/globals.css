@@ -79,11 +79,12 @@ nav a:hover { color: var(--orange); }
 .capabilities span { color: rgba(255,255,255,.7); font-size: 13px; }
 
 .process-grid { width: min(1200px, 100%); margin: auto; display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); }
+.process .section-intro { max-width: 980px; }
+.process .section-intro h2 { white-space: nowrap; }
 .process-grid article { padding: 38px 32px 20px 0; border-right: 1px solid var(--line); }
 .process-grid article + article { padding-left: 32px; }
 .process-grid article:last-child { border-right: 0; }
-.process-grid article > span { color: var(--orange); font-size: 10px; font-weight: 700; }
-.process-grid h3 { margin: 55px 0 12px; color: #303735; font-size: 20px; font-weight: 600; }
+.process-grid h3 { margin: 0 0 12px; color: #303735; font-size: 20px; font-weight: 600; }
 .process-grid p { margin: 0; color: var(--muted); font-size: 12px; }
 
 .contact { display: grid; grid-template-columns: 42% 58%; background: var(--light); }
@@ -141,8 +142,8 @@ footer > span, footer > small { color: rgba(255,255,255,.65); font-size: 10px; }
   .about-badge { width: 210px; }
   .about-copy { padding: 75px 22px; }
   .process-grid { grid-template-columns: 1fr; }
+  .process .section-intro h2 { white-space: normal; }
   .process-grid article, .process-grid article + article { padding: 30px 0; border-right: 0; border-top: 1px solid var(--line); }
-  .process-grid h3 { margin-top: 30px; }
   .contact-heading, .contact-form { padding: 70px 22px; }
   .field-row { grid-template-columns: 1fr; gap: 0; }
   footer { grid-template-columns: 1fr; gap: 12px; padding: 40px 22px; }

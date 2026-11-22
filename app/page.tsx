@@ -23,10 +23,10 @@ const services = [
 ];
 
 const steps = [
-  ["01", "Project brief", "We review the scope, programme, structural information and preferred formwork system."],
-  ["02", "Design", "We develop a practical formwork approach around build sequence and site requirements."],
-  ["03", "Draft & coordinate", "The design is documented clearly and comments are resolved with the project team."],
-  ["04", "Issue", "A controlled drawing package is delivered for the next stage of construction."],
+  ["Project brief", "We review the scope, programme, structural information and preferred formwork system."],
+  ["Design", "We develop a practical formwork approach around build sequence and site requirements."],
+  ["Draft & coordinate", "The design is documented clearly and comments are resolved with the project team."],
+  ["Issue", "A controlled drawing package is delivered for the next stage of construction."],
 ];
 
 export default function Home() {
@@ -118,9 +118,8 @@ export default function Home() {
           <h2>A clear path from brief to issue</h2>
         </div>
         <div className="process-grid">
-          {steps.map(([number, title, description]) => (
-            <article key={number}>
-              <span>{number}</span>
+          {steps.map(([title, description]) => (
+            <article key={title}>
               <h3>{title}</h3>
               <p>{description}</p>
             </article>

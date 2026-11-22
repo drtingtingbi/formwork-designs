@@ -72,11 +72,10 @@ export default function Home() {
           <p>Focused design and drafting support for clear, buildable formwork outcomes.</p>
         </div>
         <div className="service-grid">
-          {services.map((service, index) => (
+          {services.map((service) => (
             <article className="service-card" key={service.title}>
               <img src={service.image} alt="Concrete construction and formwork" />
               <div className="service-body">
-                <span>0{index + 1}</span>
                 <h3>{service.title}</h3>
                 <p>{service.description}</p>
                 <ul>{service.items.map((item) => <li key={item}>{item}</li>)}</ul>

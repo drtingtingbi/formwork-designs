@@ -25,7 +25,7 @@ button, input, textarea { font: inherit; }
 .brand img { width: 48px; height: 48px; object-fit: contain; }
 .brand b { color: var(--orange); }
 nav { display: flex; align-items: center; gap: clamp(22px, 3vw, 46px); }
-nav a { font-size: 12px; font-weight: 600; transition: color .2s ease; }
+nav a { font-size: 14px; font-weight: 600; transition: color .2s ease; }
 nav a:hover { color: var(--orange); }
 
 .hero { height: min(800px, calc(100vh - 128px)); min-height: 650px; position: relative; display: grid; align-items: center; color: white; background-position: center 43%; background-size: cover; background-repeat: no-repeat; }
@@ -54,8 +54,7 @@ nav a:hover { color: var(--orange); }
 .service-card:nth-child(3) > img { object-position: center 35%; }
 .service-card:hover > img { transform: scale(1.025); }
 .service-body { min-height: 410px; padding: 38px 38px 34px; color: white; background: var(--green); border-top: 5px solid var(--orange); }
-.service-body > span { font-size: 10px; font-weight: 700; opacity: .7; }
-.service-body h3 { margin: 25px 0 16px; color: white; font-size: 30px; font-weight: 500; }
+.service-body h3 { margin: 0 0 16px; color: white; font-size: 30px; font-weight: 500; }
 .service-body p { margin: 0; color: rgba(255,255,255,.8); font-size: 13px; }
 .service-body ul { margin: 30px 0 0; padding: 0; list-style: none; border-top: 1px solid rgba(255,255,255,.25); }
 .service-body li { padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,.25); font-size: 12px; }

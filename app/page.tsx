@@ -1,3 +1,5 @@
+import { ScrollToTop } from "./scroll-to-top";
+
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 const asset = (path: string) => `${basePath}${path}`;
 
@@ -32,6 +34,7 @@ const steps = [
 export default function Home() {
   return (
     <main>
+      <ScrollToTop />
       <div className="topbar">
         <span>Drafting &amp; Formwork Design</span>
         <a href="mailto:hello@formworkdesigns.com.au">hello@formworkdesigns.com.au</a>

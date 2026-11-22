@@ -17,6 +17,7 @@ const publicAssets = [
   "favicon.png",
   "favicon.svg",
   "formwork-designs-logo.png",
+  "formwork-designs-logo-selected.png",
   "formwork-detail.jpg",
   "formwork-site.jpg",
   "hero-formwork.jpg",

@@ -2,6 +2,7 @@ import { ScrollToTop } from "./scroll-to-top";
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 const asset = (path: string) => `${basePath}${path}`;
+const logo = asset("/formwork-designs-logo-selected.png");
 
 const services = [
   {
@@ -42,7 +43,7 @@ export default function Home() {
 
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Formwork Designs home">
-          <img src={asset("/formwork-designs-logo.png")} alt="" />
+          <img src={logo} alt="" />
           <span>FORMWORK <b>DESIGNS</b></span>
         </a>
         <nav aria-label="Main navigation">
@@ -154,7 +155,7 @@ export default function Home() {
 
       <footer>
         <a className="brand footer-brand" href="#top">
-          <img src={asset("/formwork-designs-logo.png")} alt="" />
+          <img src={logo} alt="" />
           <span>FORMWORK <b>DESIGNS</b></span>
         </a>
         <span>Drafting &amp; formwork design</span>
